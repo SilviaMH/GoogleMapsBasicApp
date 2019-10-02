@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .tilt(30)                   // Sets the tilt of the camera to 30 degrees
                 .build();                   // Creates a CameraPosition from the builder
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+        mMap.addMarker(new MarkerOptions().position(newPosition).title("Marker"));
     }
 
     @Override
