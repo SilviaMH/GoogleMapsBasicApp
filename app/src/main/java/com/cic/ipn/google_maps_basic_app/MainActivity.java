@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private void initMarkers() {
         int numero_sitios = 8;
         this.sitios = new LatLng[numero_sitios];
-        this.sitios[0] = new LatLng(55.342220,-131.646118);
-        this.sitios[1] = new LatLng(36.592819,-93.397842);
-        this.sitios[2] = new LatLng(1,2);
-        this.sitios[3] = new LatLng(1,2);
-        this.sitios[4] = new LatLng(1,2);
-        this.sitios[5] = new LatLng(1,2);
-        this.sitios[6] = new LatLng(1,2);
-        this.sitios[7] = new LatLng(1,2);
+        this.sitios[0] = new LatLng(19.685520,-98.868019);
+        this.sitios[1] = new LatLng(-13.164419,-72.544764);
+        this.sitios[2] = new LatLng(37.971722,23.726382);
+        this.sitios[3] = new LatLng(-27.104671,-109.360481);
+        this.sitios[4] = new LatLng(40.431908,116.570374);
+        this.sitios[5] = new LatLng(40.749180,14.500740);
+        this.sitios[6] = new LatLng(29.935167,52.890404);
+        this.sitios[7] = new LatLng(17.222040,-89.623703);
     }
 
     private void moveCameraToPosition(LatLng newPosition) {

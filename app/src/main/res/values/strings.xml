@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">GoogleMapsBasicApp</string>
     <string name="title_activity_maps">Map</string>
-    <string name="button_Ketchikan">Ketchikan</string>
-    <string name="button_ConeyIsland">Coney Island</string>
+    <string name="button_RapaNui">Rapa Nui</string>
+    <string name="button_MurallaChina">Gran Muralla China</string>
+    <string name="button_Teotihuacán">Teotihuacán</string>
+    <string name="button_Acropolis">Acrópolis de Atenas</string>
+    <string name="button_Pompeya">Pompeya</string>
+    <string name="button_Tikal">Tikal</string>
+    <string name="button_Persépolis">Persépolis</string>
+    <string name="button_MachuPicchu">Machu Picchu</string>
 </resources>
